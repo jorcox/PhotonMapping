@@ -1,0 +1,98 @@
+﻿Build started 16/01/2016 0:20:18.
+     1>Project "C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\SmallPM\SmallPM_vs2010.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Archivos de Programa\Visual Studio\VC\bin\CL.exe /c /I.\include /I.\SmallRT\include /I.\SmallRT\include /I.\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\PhotonMapping.cpp src\RenderEngine.cpp src\main.cpp
+         PhotonMapping.cpp
+     1>c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\smallrt\include\Ray.h(26): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>src\PhotonMapping.cpp(109): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>src\PhotonMapping.cpp(149): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>src\PhotonMapping.cpp(159): warning C4244: 'argument' : conversion from 'unsigned int' to 'const float', possible loss of data
+     1>src\PhotonMapping.cpp(166): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>src\PhotonMapping.cpp(170): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\PhotonMapping.cpp(171): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\PhotonMapping.cpp(172): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\PhotonMapping.cpp(275): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>src\PhotonMapping.cpp(304): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>src\PhotonMapping.cpp(305): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>src\PhotonMapping.cpp(316): warning C4018: '<' : signed/unsigned mismatch
+     1>src\PhotonMapping.cpp(333): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>src\PhotonMapping.cpp(344): warning C4018: '<' : signed/unsigned mismatch
+     1>src\PhotonMapping.cpp(360): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\include\KDTree.h(223): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\include\KDTree.h(217) : while compiling class template member function 'void KDTree<PhotonMapping::Photon,3>::find(const std::vector<float,std::allocator<_Ty>> &,int,int,float &,std::vector<const KDTree<PhotonMapping::Photon,3>::Node *,std::allocator<const KDTree<PhotonMapping::Photon,3>::Node>> &,std::vector<std::pair<int,float>,std::allocator<std::pair<int,float>>> &) const'
+                 with
+                 [
+                     _Ty=float
+                 ]
+                 c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\include\KDTree.h(123) : see reference to function template instantiation 'void KDTree<PhotonMapping::Photon,3>::find(const std::vector<float,std::allocator<_Ty>> &,int,int,float &,std::vector<const KDTree<PhotonMapping::Photon,3>::Node *,std::allocator<const KDTree<PhotonMapping::Photon,3>::Node>> &,std::vector<std::pair<int,float>,std::allocator<std::pair<int,float>>> &) const' being compiled
+                 with
+                 [
+                     _Ty=float
+                 ]
+                 C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\SmallPM\include\PhotonMapping.h(58) : see reference to class template instantiation 'KDTree<PhotonMapping::Photon,3>' being compiled
+     1>c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\include\KDTree.h(227): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\include\KDTree.h(176): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\include\KDTree.h(174) : while compiling class template member function 'void KDTree<PhotonMapping::Photon,3>::update_heap_nodes(const KDTree<PhotonMapping::Photon,3>::Node &,const float,int,std::vector<const KDTree<PhotonMapping::Photon,3>::Node *,std::allocator<_Ty>> &,std::vector<std::pair<int,float>,std::allocator<std::pair<int,float>>> &) const'
+                 with
+                 [
+                     _Ty=const KDTree<PhotonMapping::Photon,3>::Node *
+                 ]
+                 c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\include\KDTree.h(222) : see reference to function template instantiation 'void KDTree<PhotonMapping::Photon,3>::update_heap_nodes(const KDTree<PhotonMapping::Photon,3>::Node &,const float,int,std::vector<const KDTree<PhotonMapping::Photon,3>::Node *,std::allocator<_Ty>> &,std::vector<std::pair<int,float>,std::allocator<std::pair<int,float>>> &) const' being compiled
+                 with
+                 [
+                     _Ty=const KDTree<PhotonMapping::Photon,3>::Node *
+                 ]
+                 c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\include\KDTree.h(369) : while compiling class template member function 'void KDTree<PhotonMapping::Photon,3>::balance(void)'
+                 src\PhotonMapping.cpp(194) : see reference to function template instantiation 'void KDTree<PhotonMapping::Photon,3>::balance(void)' being compiled
+         RenderEngine.cpp
+     1>c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\smallrt\include\Ray.h(26): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>src\RenderEngine.cpp(55): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>src\RenderEngine.cpp(68): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>src\RenderEngine.cpp(79): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>src\RenderEngine.cpp(93): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>src\RenderEngine.cpp(102): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>src\RenderEngine.cpp(111): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         main.cpp
+     1>c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\smallrt\include\Ray.h(26): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\SmallPM\SmallRT\include\Lambertian.h(29): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>src\main.cpp(46): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>src\main.cpp(98): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>src\main.cpp(99): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>src\main.cpp(100): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>src\main.cpp(142): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>src\main.cpp(145): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>src\main.cpp(151): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>src\main.cpp(154): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>src\main.cpp(157): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>src\main.cpp(163): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>src\main.cpp(173): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>src\main.cpp(176): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>src\main.cpp(180): warning C4305: 'argument' : truncation from 'double' to 'const float'
+       Link:
+         D:\Archivos de Programa\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Release\SmallPM.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:.\SmallRT\lib SmallRT_vs2013.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Release\SmallPM.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Release\SmallPM.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Release\PhotonMapping.obj
+         Release\RenderEngine.obj
+         Generating code
+         Finished generating code
+     1>SmallRT_vs2013.lib(Film.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRT_vs2013.lib(Film.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Release\vc120.pdb'; linking object as if no debug info
+     1>SmallRT_vs2013.lib(World.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRT_vs2013.lib(World.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Release\vc120.pdb'; linking object as if no debug info
+     1>SmallRT_vs2013.lib(Object3D.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRT_vs2013.lib(Object3D.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Release\vc120.pdb'; linking object as if no debug info
+     1>SmallRT_vs2013.lib(Lambertian.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRT_vs2013.lib(Lambertian.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Release\vc120.pdb'; linking object as if no debug info
+     1>SmallRT_vs2013.lib(LightSource.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRT_vs2013.lib(LightSource.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Release\vc120.pdb'; linking object as if no debug info
+     1>SmallRT_vs2013.lib(Specular.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRT_vs2013.lib(Specular.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Release\vc120.pdb'; linking object as if no debug info
+     1>SmallRT_vs2013.lib(Mesh.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRT_vs2013.lib(Mesh.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Release\vc120.pdb'; linking object as if no debug info
+     1>SmallRT_vs2013.lib(Triangle.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRT_vs2013.lib(Triangle.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Release\vc120.pdb'; linking object as if no debug info
+     1>SmallRT_vs2013.lib(Sphere.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRT_vs2013.lib(Sphere.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Release\vc120.pdb'; linking object as if no debug info
+     1>SmallRT_vs2013.lib(Vector3.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRT_vs2013.lib(Vector3.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Release\vc120.pdb'; linking object as if no debug info
+     1>SmallRT_vs2013.lib(Transmissive.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRT_vs2013.lib(Transmissive.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Release\vc120.pdb'; linking object as if no debug info
+     1>SmallRT_vs2013.lib(Camera.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRT_vs2013.lib(Camera.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Release\vc120.pdb'; linking object as if no debug info
+     1>SmallRT_vs2013.lib(Intersection.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRT_vs2013.lib(Intersection.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Release\vc120.pdb'; linking object as if no debug info
+     1>SmallRT_vs2013.lib(Ray.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRT_vs2013.lib(Ray.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Release\vc120.pdb'; linking object as if no debug info
+     1>SmallRT_vs2013.lib(Vector2.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRT_vs2013.lib(Vector2.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Release\vc120.pdb'; linking object as if no debug info
+     1>SmallRT_vs2013.lib(BVH.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRT_vs2013.lib(BVH.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Release\vc120.pdb'; linking object as if no debug info
+         SmallPM_vs2010.vcxproj -> C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Release\SmallPM.exe
+     1>Done Building Project "C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\SmallPM\SmallPM_vs2010.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.77

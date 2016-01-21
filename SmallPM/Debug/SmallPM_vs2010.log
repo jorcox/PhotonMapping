@@ -1,0 +1,51 @@
+﻿Build started 21/01/2016 15:49:55.
+     1>Project "C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\SmallPM\SmallPM_vs2010.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SmallPM-Jorge.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\Archivos de Programa\Visual Studio\VC\bin\CL.exe /c /I.\include /I.\SmallRT\include /I.\SmallPM\SmallRT\include /I.\SmallPM\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\main.cpp
+         main.cpp
+     1>c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\smallrt\include\ray.h(26): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\smallrt\include\lambertian.h(29): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\src\main.cpp(46): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\src\main.cpp(99): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\src\main.cpp(100): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\src\main.cpp(101): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\src\main.cpp(143): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\src\main.cpp(146): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\src\main.cpp(152): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\src\main.cpp(155): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\src\main.cpp(158): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\src\main.cpp(164): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\src\main.cpp(174): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\src\main.cpp(177): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\src\main.cpp(183): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\src\main.cpp(186): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\src\main.cpp(190): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\jorge\onedrive\universidad\cuarto\cuatrimestre7\ig\prácticas\visualstudio\smallpm\smallpm\src\main.cpp(191): warning C4305: 'argument' : truncation from 'double' to 'const float'
+       Link:
+         D:\Archivos de Programa\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Debug\SmallPM.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:.\SmallRT\lib /LIBPATH:.\SmallPM\SmallRT\lib SmallRTd_vs2013.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Debug\SmallPM.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Debug\SmallPM.lib" /MACHINE:X86 /SAFESEH Debug\main.obj
+         Debug\PhotonMapping.obj
+         Debug\RenderEngine.obj
+     1>main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>SmallRTd_vs2013.lib(Camera.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRTd_vs2013.lib(Camera.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Debug\vc120.pdb'; linking object as if no debug info
+     1>SmallRTd_vs2013.lib(Film.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRTd_vs2013.lib(Film.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Debug\vc120.pdb'; linking object as if no debug info
+     1>SmallRTd_vs2013.lib(Intersection.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRTd_vs2013.lib(Intersection.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Debug\vc120.pdb'; linking object as if no debug info
+     1>SmallRTd_vs2013.lib(LightSource.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRTd_vs2013.lib(LightSource.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Debug\vc120.pdb'; linking object as if no debug info
+     1>SmallRTd_vs2013.lib(Ray.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRTd_vs2013.lib(Ray.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Debug\vc120.pdb'; linking object as if no debug info
+     1>SmallRTd_vs2013.lib(Vector2.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRTd_vs2013.lib(Vector2.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Debug\vc120.pdb'; linking object as if no debug info
+     1>SmallRTd_vs2013.lib(Vector3.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRTd_vs2013.lib(Vector3.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Debug\vc120.pdb'; linking object as if no debug info
+     1>SmallRTd_vs2013.lib(World.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRTd_vs2013.lib(World.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Debug\vc120.pdb'; linking object as if no debug info
+     1>SmallRTd_vs2013.lib(Lambertian.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRTd_vs2013.lib(Lambertian.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Debug\vc120.pdb'; linking object as if no debug info
+     1>SmallRTd_vs2013.lib(Specular.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRTd_vs2013.lib(Specular.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Debug\vc120.pdb'; linking object as if no debug info
+     1>SmallRTd_vs2013.lib(Transmissive.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRTd_vs2013.lib(Transmissive.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Debug\vc120.pdb'; linking object as if no debug info
+     1>SmallRTd_vs2013.lib(BVH.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRTd_vs2013.lib(BVH.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Debug\vc120.pdb'; linking object as if no debug info
+     1>SmallRTd_vs2013.lib(Mesh.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRTd_vs2013.lib(Mesh.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Debug\vc120.pdb'; linking object as if no debug info
+     1>SmallRTd_vs2013.lib(Object3D.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRTd_vs2013.lib(Object3D.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Debug\vc120.pdb'; linking object as if no debug info
+     1>SmallRTd_vs2013.lib(Sphere.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRTd_vs2013.lib(Sphere.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Debug\vc120.pdb'; linking object as if no debug info
+     1>SmallRTd_vs2013.lib(Triangle.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SmallRTd_vs2013.lib(Triangle.obj)' or at 'C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Debug\vc120.pdb'; linking object as if no debug info
+         SmallPM_vs2010.vcxproj -> C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\Debug\SmallPM.exe
+     1>Done Building Project "C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\SmallPM\SmallPM_vs2010.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.95

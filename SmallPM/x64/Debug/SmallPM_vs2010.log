@@ -1,0 +1,16 @@
+﻿Build started 16/01/2016 0:20:08.
+     1>Project "C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\SmallPM\SmallPM_vs2010.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Archivos de Programa\Visual Studio\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt src\main.cpp src\PhotonMapping.cpp src\RenderEngine.cpp
+         main.cpp
+     1>src\main.cpp(16): fatal error C1083: Cannot open include file: 'globals.h': No such file or directory
+         PhotonMapping.cpp
+     1>src\PhotonMapping.cpp(14): fatal error C1083: Cannot open include file: 'PhotonMapping.h': No such file or directory
+         RenderEngine.cpp
+     1>src\RenderEngine.cpp(20): fatal error C1083: Cannot open include file: 'Timer.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\Jorge\OneDrive\Universidad\Cuarto\Cuatrimestre7\IG\Prácticas\VisualStudio\SmallPM\SmallPM\SmallPM_vs2010.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.81
